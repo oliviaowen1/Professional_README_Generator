@@ -30,7 +30,7 @@ function renderLicenseLink(license) {
       return "This application is covered by Mozilla Public License 2.0 and the license is provided by Mozilla, found out more about the license here: https://opensource.org/licenses/MPL-2.0";
     // ISC
     case "ISC":
-      return "This application is covered by ISC and the license is provided by ISC, found out more about the license here :https://opensource.org/licenses/ISC";
+      return "This application is covered by ISC and the license is provided by ISC, found out more about the license here: https://opensource.org/licenses/ISC";
     default: "";
       break;
   }
@@ -40,7 +40,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) { 
   if (license !== "Other") {
-    let licenseType = "## Licence\n\n" + renderLicenseBadge(license) + renderLicenseLink(license);
+    let licenseType =  renderLicenseBadge(license) + "\n\n" + renderLicenseLink(license);
     return licenseType;
     }
     else {
@@ -83,7 +83,9 @@ ${data.testing}
 
 # Questions
 ${data.githubUser}
+\n\n
 ${data.githubLink}
+\n\n
 ${data.email}
 
 `;
