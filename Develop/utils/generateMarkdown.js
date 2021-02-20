@@ -82,10 +82,13 @@ ${data.contributors}
 ${data.testing}
 
 # Questions
+You can see my Github by searching for: 
 ${data.githubUser}
 \n\n
+Or by following this link:
 ${data.githubLink}
 \n\n
+You can also contact me by email:
 ${data.email}
 
 `;
