@@ -46,6 +46,15 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+## Table of Contents
+
+* [Overview](#Overview)
+* [Installation](#Installation)
+* [Features](#Features)
+* [Improvements](#Improvements)
+* [License](#license)
+
+
 `;
 }
 

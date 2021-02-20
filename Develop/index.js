@@ -10,72 +10,79 @@ const questions = [
     "What is your email address?",
     "Please select the correct license for your project",
     "What is the title of your project?",
-    "Enter a short description of your project",
+    "Enter a short description of your project:",
     "How do users install your project?",
     "How do users use your project?",
     "How can people contribute to this project?",
     "How can you test your project?",
-    ];
+];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, generateMarkdown(data), (err) =>
+    err ? console.error(err) : console.log('Your ReadMe file has been created'));
+}
 
 // TODO: Create a function to initialize app
-function init() { 
+function init() {
     inquirer
-    .prompt([
-        {
-            type: 'input',
-            message: questions[0],
-            name: 'githubUser',
-        },
-        {
-            type: 'input',
-            message: questions[1],
-            name: 'githubLink',
-        },
-        {
-            type: 'input',
-            message: questions[2],
-            name: 'email',
-        },
-        {
-            type: 'list',
-            message: questions[3],
-            name: 'license',
-            choices: ['MIT', 'Mozilla Public 2.0', 'ISC'],
-        }
-        {
-            type: 'input',
-            message: questions[4],
-            name: 'title',
-        },
-        {
-            type: 'input',
-            message: questions[5],
-            name: 'description',
-        },
-        {
-            type: 'input',
-            message: questions[6],
-            name: 'installation',
-        },
-        {
-            type: 'input',
-            message: questions[7],
-            name: 'usage',
-        },
-        {
-            type: 'input',
-            message: questions[8],
-            name: 'contributors',
-        },
-        {
-            type: 'input',
-            message: questions[9],
-            name: 'testing',
-        },
-    ])}
+        .prompt([
+            {
+                type: 'input',
+                message: questions[0],
+                name: 'githubUser',
+            },
+            {
+                type: 'input',
+                message: questions[1],
+                name: 'githubLink',
+            },
+            {
+                type: 'input',
+                message: questions[2],
+                name: 'email',
+            },
+            {
+                type: 'list',
+                message: questions[3],
+                name: 'license',
+                choices: ['MIT', 'Mozilla Public 2.0', 'ISC'],
+            },
+            {
+                type: 'input',
+                message: questions[4],
+                name: 'title',
+            },
+            {
+                type: 'input',
+                message: questions[5],
+                name: 'description',
+            },
+            {
+                type: 'input',
+                message: questions[6],
+                name: 'installation',
+            },
+            {
+                type: 'input',
+                message: questions[7],
+                name: 'usage',
+            },
+            {
+                type: 'input',
+                message: questions[8],
+                name: 'contributors',
+            },
+            {
+                type: 'input',
+                message: questions[9],
+                name: 'testing',
+            },
+        ])
+        .then((data) =>
+    writeToFile("README.md", data)
+    );
+}
 
 // Function call to initialize app
 init();
