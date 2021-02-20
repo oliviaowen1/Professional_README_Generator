@@ -14,8 +14,7 @@ const questions = [
     "How can people contribute to this project?",
     "How can you test your project?",
     "Please select the correct license for your project",
-    "What's the link to your GitHub profile?"
-];
+    "What's the link to your GitHub profile?" ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) { }
