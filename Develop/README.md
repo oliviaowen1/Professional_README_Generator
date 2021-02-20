@@ -1,4 +1,4 @@
-# 1
+# 2
 
 ## Table of Contents
 
@@ -13,26 +13,26 @@
 # License
 ## Licence
 
-[![license: MIT](https://img.shields.io/badge/License-MIT-blue.svg)]This application is covered by MIT and the license is provided by MIT, found out more about the license here: (https://opensource.org/licenses/MIT)
+![license: MIT](https://img.shields.io/badge/License-MIT-blue.svg)This application is covered by MIT and the license is provided by MIT, found out more about the license here: https://opensource.org/licenses/MIT
 
 
 # Description
-1
+2
 
 # Installation 
-1
+2
 
 # Usage
-1
+2
 
 # Contributing
-1
+2
 
 # Testing
-1
+2
 
 # Questions
-1
-1
-1
+2
+2
+2
 
