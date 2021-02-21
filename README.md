@@ -16,6 +16,7 @@ The aim of this project was to create a command-line application that produced a
 
 Please see a video of the working application here: 
 <iframe src="https://drive.google.com/file/d/1D1m9IniPaBSeB45HhZ4LLqbtFlWV-aMj/preview" width="640" height="480"></iframe>
+![Demo of application](https://drive.google.com/file/d/1D1m9IniPaBSeB45HhZ4LLqbtFlWV-aMj/preview)
 
 # Installation 
 Download Index.js file and Node.js
