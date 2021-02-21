@@ -19,16 +19,16 @@ This application will allow users to create a ReadMe file based on their answers
 Please see screenshots of the working application below:
 
 You can see below the questions that the user is being asked, as we as a drop down menu of options for the License:
-![Screenshot of dropdown options]()
+![Screenshot of dropdown options](https://raw.githubusercontent.com/oliviaowen1/Professional_README_Generator/main/Assets/Screenshot%202021-02-21%20at%2012.27.57.png)
 
 You can see the user input here for the questions:
-![Screenshot of user input]()
+![Screenshot of user input](https://raw.githubusercontent.com/oliviaowen1/Professional_README_Generator/main/Assets/Screenshot%202021-02-21%20at%2012.28.51.png)
 
 Here is the ReadMe file that has been produced based on the users inputted answers. You can see the preview alongside it, showing its functionality:
-![Screenshot of readme file]()
+![Screenshot of readme file](https://raw.githubusercontent.com/oliviaowen1/Professional_README_Generator/main/Assets/Screenshot%202021-02-21%20at%2012.29.07.png)
 
 Below is the final product once the ReadMe file has been pushed to the repository:
-![Screenshot of readme in repo]()
+![Screenshot of readme in repo](https://raw.githubusercontent.com/oliviaowen1/Professional_README_Generator/main/Assets/Screenshot%202021-02-21%20at%2012.31.43.png)
 
 
 Please see a video of the working application [here](https://drive.google.com/file/d/1D1m9IniPaBSeB45HhZ4LLqbtFlWV-aMj/preview)
