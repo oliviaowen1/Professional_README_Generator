@@ -14,9 +14,7 @@
 # Description
 The aim of this project was to create a command-line application that produced a ReadMe file from the user input information.
 
-Please see a video of the working application here: 
-
-![Demo of application](https://drive.google.com/file/d/1D1m9IniPaBSeB45HhZ4LLqbtFlWV-aMj/preview)
+Please see a video of the working application [here](https://drive.google.com/file/d/1D1m9IniPaBSeB45HhZ4LLqbtFlWV-aMj/preview)
 
 # Installation 
 Download Index.js file and Node.js
