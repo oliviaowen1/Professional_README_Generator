@@ -1,4 +1,4 @@
-# 1
+# 2
 
 ## Table of Contents
 
@@ -11,34 +11,37 @@
 * [Questions](#Questions)
 
 # License
-![license: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)
 
-This application is covered by MIT and the license is provided by MIT, found out more about the license here: https://opensource.org/licenses/MIT
+This application is covered by Mozilla Public License 2.0 and the license is provided by Mozilla, found out more about the license here: https://opensource.org/licenses/MPL-2.0
 
 
 # Description
-1
+2
 
 # Installation 
-1
+2
 
 # Usage
-1
+2
 
 # Contributing
-1
+2
 
 # Testing
-1
+2
 
 # Questions
-1
+You can see my Github by searching for: 
+2
 
 
 
-1
+Or by following this link:
+2
 
 
 
-1
+You can also contact me by email:
+2
 

@@ -46,7 +46,7 @@ function init() {
                 type: 'list',
                 message: questions[3],
                 name: 'license',
-                choices: ['MIT', 'Mozilla Public 2.0', 'ISC'],
+                choices: ['MIT', 'Mozilla Public License 2.0', 'ISC'],
             },
             {
                 type: 'input',
