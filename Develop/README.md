@@ -1,4 +1,4 @@
-# 2
+# Example ReadMe
 
 ## Table of Contents
 
@@ -17,31 +17,31 @@ This application is covered by Mozilla Public License 2.0 and the license is pro
 
 
 # Description
-2
+This is an example ReadMe to show my applications abilities
 
 # Installation 
-2
+Download Index.js file and Node.js
 
 # Usage
-2
+Open the terminal within the file and run "node index.js" and answer the questions
 
 # Contributing
-2
+Email me using the details below
 
 # Testing
-2
+You can test using the information provided
 
 # Questions
 You can see my Github by searching for: 
-2
+oliviaowen1
 
 
 
 Or by following this link:
-2
+www.github.com/oliviaowen1
 
 
 
 You can also contact me by email:
-2
+olivia@email.com
 
